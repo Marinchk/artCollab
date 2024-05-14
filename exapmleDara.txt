@@ -3,21 +3,28 @@ signup/login json exapmle
 	"username": "hugo",
     "password": "1234"
 },
+{
+	"username": "max",
+    "password": "1234"
+},
 post/edit example
+
 {
     "name": "big adopt",
-    "description": "giga godzila with pink nose",
+    "description": "godzila with pink nose",
     "payment": "300",
     "artistsArray": [
         {
             "user": "hugo",
             "role": "design",
             "payment": "200"
+            statusWork: "50%"
         },
                 {
             "user": "ego",
             "role": "line",
             "payment": "100"
+            statusWork: "ready"
         }
     ]
 }
